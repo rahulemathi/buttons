@@ -84,6 +84,5 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
 - GitHub [Rahul E](https://github.com/rahulemathi)
 - Twitter [Rahul E](https://twitter.com/rahule097)
