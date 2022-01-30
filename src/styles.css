@@ -1,0 +1,238 @@
+:root {
+  --nato: "Noto Sans JP", sans-serif;
+  --pop: "Poppins", sans-serif;
+  --ubuntu: 'Ubuntu Mono', monospace;
+  --mon: "Montserrat", sans-serif;
+}
+
+.Sidemenu {
+  width: 273px;
+  height: 1234px;
+  position: absolute;
+  left: -8.5px;
+  top: -9.07px;
+  background-color:hsla(220,43%,99%,1);
+}
+
+.devchallengess h1 {
+  font-family: var(--pop);
+  font-size: 13px;
+  font-weight: 600;
+  position: absolute;
+  width: 114px;
+  height: 20px;
+  left: 48px;
+  top: 38px;
+}
+
+.devchallengess span {
+  color: #f7542e;
+}
+.menuBar{
+    width:62px;
+    height:20px;
+    position: absolute;
+    top:189px;
+}
+.menuList li  {
+  list-style-type: none;
+  font-family: var(--nato);
+  font-weight: 500;
+  font-size: 14px;
+  font-style: normal;
+  color: #9e9e9e;
+  width: 62px;
+  height: 20px;
+  left: 48px;
+  top: 180px;
+  margin-bottom: 24px;
+}
+
+.menuList li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menuList li:nth-child(5){
+    color:black;
+}
+
+.buttonSection{
+    margin: 0 0 0 284.5px;
+    position:relative;
+    top:117px;
+}
+
+.buttonHeading{
+  font-family: var(--pop);
+  font-weight: 500;
+  position: absolute;
+  top:53px;
+  left: 290px;
+}
+.button{
+  display: flex;
+  margin-bottom: 45px;
+}
+
+.button button{
+  width: 81px;
+  height: 36px;
+  background: none;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: var(--nato);
+  font-weight: 500;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  margin-right: 155px;
+}
+
+.buttonTitle{
+  font-size: 12px;
+  font-family: var(--ubuntu);
+  font-weight: 400;
+}
+
+.button .default{
+  background-color: #e0e0e0;
+  color: #3F3F3F;
+}
+
+.button .defaultHover{
+  background-color: #AEAEAE;
+}
+
+.button .outline{
+  background-color: #ffffff;
+  border: 1px solid #3D5AFE;
+  color: #3D5AFE;
+  box-shadow: none;
+}
+
+.button .outlineHover{
+  background-color: rgba(41, 98, 255, 0.1);
+  border: 1px solid #3D5AFE;
+  color: #3D5AFE;
+  box-shadow: none;
+}
+
+.button .text{
+  background-color: transparent;
+  color: #3D5AFE;
+  box-shadow: none;
+}
+
+.button .textHover{
+  background-color: rgba(41, 98, 255, 0.1);
+  color: #3D5AFE;
+  box-shadow: none;
+}
+
+.button .disabledShadow{
+  background-color: #3D5AFE;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.button .disable{
+  background-color: #E0E0E0;
+  color: #9E9E9E;
+  box-shadow: none;
+}
+
+.button .disableHover{
+  background-color: transparent;
+  color: #9E9E9E;
+  box-shadow: none;
+}
+
+.button .grocery{
+  background-color:  #2962FF;
+  color: #ffffff;
+  box-shadow:0px 2px 3px rgba(0, 49, 202, 0.2);
+  margin: 0 225px 0 0;
+}
+
+.button .groceryHover{
+  background-color: #2962FF;
+  color: #ffffff;
+  box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+}
+
+.button .sm{
+  width: 73px;
+  height: 32px;
+  background-color: #2962FF;
+  color: #ffffff;
+}
+
+.button .md{
+  background-color: #2962FF;
+  color: #ffffff;
+}
+
+.button .lg{
+  width: 93px;
+  height: 42px;
+  background-color: #2962FF;
+  color: #ffffff;
+}
+
+.button .secondary{
+  width: 104px;
+  background-color: #455A64;
+  color: #ffffff;
+}
+
+.button .danger{
+  background-color: #D32F2F;
+  color: #ffffff;
+}
+
+.button .defaultDark{
+  background-color: #0039CB;
+  color: #ffffff;
+}
+
+.button .secondaryHover{
+  width: 104px;
+  background-color: #1C313A;
+  color: #ffffff;
+}
+
+.button .dangerHover{
+  background-color:   #9A0007;
+  color: #ffffff;
+}
+
+.icons{
+  margin: 0 0 34px 0;
+}
+
+.icons a{
+  font-family: var(--ubuntu);
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  left: 2.3rem;
+  margin: 0 0 34px 0;
+  color: #828282;
+  text-decoration: none;
+}
+footer{
+  position: relative;
+  top:94px;
+  left:322px;
+}
+
+footer h1{
+  font-size:14px;
+  color:hsla(0, 0%, 66%, 1);
+}
+
+footer h1 a{
+  text-decoration:none;
+  color:hsla(0, 0%, 66%, 1);
+  font-weight:700;
+}
